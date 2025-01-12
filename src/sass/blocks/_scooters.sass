@@ -1,0 +1,43 @@
+.scooters
+    position: relative
+    margin-top: 115px
+    height: 245px
+    padding: 9px 0 14px 0
+    background-color: $second-color
+    &_onerow
+        display: flex
+        justify-content: space-around
+        &-img
+            width: 74px
+            height: 80px
+        &-name
+            font-size: 18px
+            font-weight: 700
+            text-transform: uppercase
+            color: gray
+        .air
+            width: 90px
+    &_tworow
+        display: flex
+        margin-top: 35px
+        justify-content: space-around
+        &-img
+            width: 74px
+            height: 80px
+        &-name
+            font-size: 18px
+            font-weight: 700
+            text-transform: uppercase
+            color: gray
+        .zing
+            margin-left: 18px
+        .accessories
+            width: 115px
+
+    &_divider
+        position: absolute
+        width: 100%
+        height: 1px
+        margin-top: 14px
+        transform: translateX(-215px)
+        background-color: #40454c
