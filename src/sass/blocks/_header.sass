@@ -1,0 +1,67 @@
+header
+    position: relative
+    height: 48px
+    nav
+        position: fixed
+        width: 100%
+        height: 48px
+        background-color: $second-color
+        z-index: 5
+        .menu
+            display: flex
+            padding: 13px 0
+            margin: 0
+            list-style-type: none
+            &_link
+                color: #ffffff
+                font-size: 15px
+                font-weight: 300
+                text-decoration: none
+                transition: all 0.3s
+                &:hover
+                    color: $main-color
+            &_shopcart
+                margin-left: 230px
+            &_instagram
+                margin-left: 24px
+            &_phone
+                margin-left: 13px
+                color: #ffffff
+                text-decoration: none
+        li
+            text-transform: uppercase
+            font-size: 18px
+            font-weight: 400
+            margin-left: 24px
+
+    .subheader
+        position: absolute
+        top: 66px
+        width: 100%
+        height: 84px
+        .row
+            display: flex
+        &_logo
+            display: block
+            max-width: 100%
+            margin-top: 16px
+        &_director
+            position: relative
+            margin-left: 55%
+            &-face
+                position: absolute
+            &-name
+                padding-top: 8px
+                margin-left: 75px
+                font-size: 13px
+                font-weight: 600
+                text-transform: uppercase
+                color: $second-color
+            &-ask
+                display: block
+                width: 84px
+                margin-top: 8px
+                margin-left: 75px
+                font-size: 13px
+                font-weight: 400
+                color: $main-color
