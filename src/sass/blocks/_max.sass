@@ -1,0 +1,122 @@
+.max
+    position: relative
+    &_green
+        width: 89px
+        height: 27px
+        border: 1px solid #6ACD68
+    &_stock
+        font-size: 13px
+        font-weight: 400
+        padding-top: 7px
+        color: #6ACD68
+        text-align: center
+
+    &_ninebot
+        margin-top: 11px
+        width: 600px
+        &-title
+            font-size: 80px
+            font-weight: 700
+            line-height: 69.84px
+            text-transform: uppercase
+        &-box
+            margin-top: 13px
+            height: 235px
+            padding: 23px 20px 22px 20px
+            border: 2px solid #999999
+
+        // Header
+        &-extend
+            font-size: 18px
+            font-weight: 400
+            span
+                font-weight: 700
+        &-years
+            margin-top: 8px
+            display: flex
+            justify-content: space-evenly
+        &-year
+            width: 160px
+            height: 36px
+            border: 1px solid #999999
+            cursor: pointer
+        &-text
+            padding-top: 10px
+            font-size: 13px
+            font-weight: 400
+            text-align: center
+            color: $second-color
+        
+        // Middle
+        &-middle
+            margin-top: 19px
+            display: flex
+            justify-content: space-around
+        &-price
+            font-size: 18px
+            font-weight: 400
+            color: $second-color
+            span
+                font-size: 35px
+                font-weight: 700
+        &-gear
+            padding-top: 13px
+            width: 151px
+            font-size: 18px
+            font-weight: 600
+            color: $main-color
+
+        // Bottom
+        &-bottom
+            margin-top: 13px
+            display: flex
+            justify-content: space-between
+        &-blue
+            width: 48%
+            height: 48px
+            background-color: $main-color
+            cursor: pointer
+        &-words
+            font-size: 18px
+            font-weight: 700
+            padding-top: 15px
+            text-transform: uppercase
+            color: #ffffff
+            text-align: center
+            
+    &_carousel
+        top: 0
+        width: 432px
+        right: 176px
+    .slick-slider
+        position: absolute
+
+    &_payment
+        margin-top: 20px
+        &-text
+            font-size: 18px
+            font-weight: 400
+            color: #999999
+        &-methods
+            margin-top: 8px
+    .blue
+        position: relative
+        font-size: 18px
+        font-weight: 600
+        color: $main-color
+        &::after
+            content: ''
+            position: absolute
+            display: block
+            width: 17px
+            height: 13px
+            top: 5px
+            left: 196px
+            background: url('../img/ninebot/A.svg') center (center / cover) no-repeat
+    .point
+        margin-left: 23px
+        color: #000000
+    .lime
+        font-size: 18px
+        font-weight: 600
+        color: lime
