@@ -40,12 +40,18 @@
             height: 36px
             border: 1px solid #999999
             cursor: pointer
+            &:hover
+                background-color: $main-color
+                transition: 0.5s
         &-text
             padding-top: 10px
             font-size: 13px
             font-weight: 400
             text-align: center
             color: $second-color
+            &:hover
+                color: #ffffff
+                transition: 0.5s
         
         // Middle
         &-middle
@@ -76,6 +82,9 @@
             height: 48px
             background-color: $main-color
             cursor: pointer
+            &:hover
+                background-color: #ffffff
+                transition: 0.5s
         &-words
             font-size: 18px
             font-weight: 700
@@ -83,6 +92,9 @@
             text-transform: uppercase
             color: #ffffff
             text-align: center
+            &:hover
+                color: $second-color
+                transition: 0.5s
             
     // Carousel
     &_carousel
